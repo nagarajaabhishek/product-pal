@@ -15,6 +15,22 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Product-Pal Agent",
   description: "Guided teardown workflow agent MVP",
+  metadataBase: new URL("https://thara-product.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Product-Pal Agent",
+    description: "Guided teardown workflow agent MVP",
+    url: "https://thara-product.vercel.app",
+    siteName: "Product-Pal",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Product-Pal Agent",
+    description: "Guided teardown workflow agent MVP",
+  },
 };
 
 export default function RootLayout({
